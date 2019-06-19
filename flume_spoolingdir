@@ -1,0 +1,105 @@
+17661 ResourceManager
+[root@master sbin]# hdfs dfs -mkdir /flume_sink
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+19/06/20 02:08:53 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[root@master sbin]# hdfs dfs -ls /flume_sink
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+19/06/20 02:09:08 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[root@master sbin]# clear
+
+[root@master sbin]# cd ~
+[root@master ~]# flume-ng agent -n agent1 -f /opt/apache-flume-1.9.0-bin/conf/AcadgildLocal.conf 
+Warning: No configuration directory set! Use --conf <dir> to override.
+Info: Including Hadoop libraries found via (/opt/hadoop/bin/hadoop) for HDFS access
+Info: Including Hive libraries found via (/opt/hive) for Hive access
++ exec /usr/lib/jvm/java-1.8.0-openjdk/bin/java -Xmx20m -cp '/opt/apache-flume-1.9.0-bin/lib/*:/opt/hadoop/etc/hadoop:/opt/hadoop/share/hadoop/common/lib/*:/opt/hadoop/share/hadoop/common/*:/opt/hadoop/share/hadoop/hdfs:/opt/hadoop/share/hadoop/hdfs/lib/*:/opt/hadoop/share/hadoop/hdfs/*:/opt/hadoop/share/hadoop/yarn:/opt/hadoop/share/hadoop/yarn/lib/*:/opt/hadoop/share/hadoop/yarn/*:/opt/hadoop/share/hadoop/mapreduce/lib/*:/opt/hadoop/share/hadoop/mapreduce/*:/opt/hadoop/contrib/capacity-scheduler/*.jar:/opt/hive/lib/*' -Djava.library.path=:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib org.apache.flume.node.Application -n agent1 -f /opt/apache-flume-1.9.0-bin/conf/AcadgildLocal.conf
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/apache-flume-1.9.0-bin/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hadoop/share/hadoop/common/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/hive/lib/log4j-slf4j-impl-2.10.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+19/06/20 02:11:45 INFO node.PollingPropertiesFileConfigurationProvider: Configuration provider starting
+19/06/20 02:11:45 INFO node.PollingPropertiesFileConfigurationProvider: Reloading configuration file:/opt/apache-flume-1.9.0-bin/conf/AcadgildLocal.conf
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:source1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:source1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:fileChannel1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:fileChannel1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Added sinks: hdfs-sink1_1 Agent: agent1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:source1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:source1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:fileChannel1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:source1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Processing:hdfs-sink1_1
+19/06/20 02:11:45 WARN conf.FlumeConfiguration: Agent configuration for 'agent1' has no configfilters.
+19/06/20 02:11:45 INFO conf.FlumeConfiguration: Post-validation flume configuration contains configuration for agents: [agent1]
+19/06/20 02:11:45 INFO node.AbstractConfigurationProvider: Creating channels
+19/06/20 02:11:46 INFO channel.DefaultChannelFactory: Creating instance of channel fileChannel1_1 type file
+19/06/20 02:11:46 INFO node.AbstractConfigurationProvider: Created channel fileChannel1_1
+19/06/20 02:11:46 INFO source.DefaultSourceFactory: Creating instance of source source1_1, type spooldir
+19/06/20 02:11:46 INFO sink.DefaultSinkFactory: Creating instance of sink: hdfs-sink1_1, type: hdfs
+19/06/20 02:11:46 INFO node.AbstractConfigurationProvider: Channel fileChannel1_1 connected to [source1_1, hdfs-sink1_1]
+19/06/20 02:11:46 INFO node.Application: Starting new configuration:{ sourceRunners:{source1_1=EventDrivenSourceRunner: { source:Spool Directory source source1_1: { spoolDir: /root/Desktop/Data/Project2/flume_sink } }} sinkRunners:{hdfs-sink1_1=SinkRunner: { policy:org.apache.flume.sink.DefaultSinkProcessor@72d03a7c counterGroup:{ name:null counters:{} } }} channels:{fileChannel1_1=FileChannel fileChannel1_1 { dataDirs: [/root/.flume/file-channel/data] }} }
+19/06/20 02:11:46 INFO node.Application: Starting Channel fileChannel1_1
+19/06/20 02:11:46 INFO node.Application: Waiting for channel: fileChannel1_1 to start. Sleeping for 500 ms
+19/06/20 02:11:46 INFO file.FileChannel: Starting FileChannel fileChannel1_1 { dataDirs: [/root/.flume/file-channel/data] }...
+19/06/20 02:11:46 INFO instrumentation.MonitoredCounterGroup: Monitored counter group for type: CHANNEL, name: fileChannel1_1: Successfully registered new MBean.
+19/06/20 02:11:46 INFO instrumentation.MonitoredCounterGroup: Component type: CHANNEL, name: fileChannel1_1 started
+19/06/20 02:11:46 INFO file.Log: Encryption is not enabled
+19/06/20 02:11:46 INFO file.Log: Replay started
+19/06/20 02:11:46 INFO file.Log: Found NextFileID 0, from []
+19/06/20 02:11:47 INFO file.EventQueueBackingStoreFile: Preallocated /root/.flume/file-channel/checkpoint/checkpoint to 1608232 for capacity 200000
+19/06/20 02:11:47 INFO file.EventQueueBackingStoreFileV3: Starting up with /root/.flume/file-channel/checkpoint/checkpoint and /root/.flume/file-channel/checkpoint/checkpoint.meta
+19/06/20 02:11:47 INFO file.FlumeEventQueue: QueueSet population inserting 0 took 0
+19/06/20 02:11:47 INFO file.Log: Last Checkpoint Thu Jun 20 02:11:46 IST 2019, queue depth = 0
+19/06/20 02:11:47 INFO file.Log: Replaying logs with v2 replay logic
+19/06/20 02:11:47 INFO file.ReplayHandler: Starting replay of []
+19/06/20 02:11:47 INFO file.ReplayHandler: read: 0, put: 0, take: 0, rollback: 0, commit: 0, skip: 0, eventCount:0
+19/06/20 02:11:47 INFO file.FlumeEventQueue: Search Count = 0, Search Time = 0, Copy Count = 0, Copy Time = 0
+19/06/20 02:11:47 INFO file.Log: Rolling /root/.flume/file-channel/data
+19/06/20 02:11:47 INFO file.Log: Roll start /root/.flume/file-channel/data
+19/06/20 02:11:47 INFO tools.DirectMemoryUtils: Unable to get maxDirectMemory from VM: NoSuchMethodException: sun.misc.VM.maxDirectMemory(null)
+19/06/20 02:11:47 INFO tools.DirectMemoryUtils: Direct Memory Allocation:  Allocation = 1048576, Allocated = 0, MaxDirectMemorySize = 18874368, Remaining = 18874368
+19/06/20 02:11:47 INFO file.LogFile: Opened /root/.flume/file-channel/data/log-1
+19/06/20 02:11:47 INFO file.Log: Roll end
+19/06/20 02:11:47 INFO file.EventQueueBackingStoreFile: Start checkpoint for /root/.flume/file-channel/checkpoint/checkpoint, elements to sync = 0
+19/06/20 02:11:47 INFO file.EventQueueBackingStoreFile: Updating checkpoint metadata: logWriteOrderID: 1560976907460, queueSize: 0, queueHead: 0
+19/06/20 02:11:47 INFO file.Log: Updated checkpoint for file: /root/.flume/file-channel/data/log-1 position: 0 logWriteOrderID: 1560976907460
+19/06/20 02:11:47 INFO file.FileChannel: Queue Size after replay: 0 [channel=fileChannel1_1]
+19/06/20 02:11:47 INFO node.Application: Starting Sink hdfs-sink1_1
+19/06/20 02:11:47 INFO node.Application: Starting Source source1_1
+19/06/20 02:11:47 INFO source.SpoolDirectorySource: SpoolDirectorySource source starting with directory: /root/Desktop/Data/Project2/flume_sink
+19/06/20 02:11:48 INFO instrumentation.MonitoredCounterGroup: Monitored counter group for type: SINK, name: hdfs-sink1_1: Successfully registered new MBean.
+19/06/20 02:11:48 INFO instrumentation.MonitoredCounterGroup: Component type: SINK, name: hdfs-sink1_1 started
+19/06/20 02:11:48 INFO instrumentation.MonitoredCounterGroup: Monitored counter group for type: SOURCE, name: source1_1: Successfully registered new MBean.
+19/06/20 02:11:48 INFO instrumentation.MonitoredCounterGroup: Component type: SOURCE, name: source1_1 started
+19/06/20 02:11:49 INFO avro.ReliableSpoolingFileEventReader: Last read took us just up to a file boundary. Rolling to the next file, if there is one.
+19/06/20 02:11:49 INFO avro.ReliableSpoolingFileEventReader: Preparing to move file /root/Desktop/Data/Project2/flume_sink/input.txt to /root/Desktop/Data/Project2/flume_sink/input.txt.COMPLETED
+19/06/20 02:11:51 INFO hdfs.HDFSDataStream: Serializer = TEXT, UseRawLocalFileSystem = false
+19/06/20 02:11:51 INFO hdfs.BucketWriter: Creating hdfs://master:9000/flume_sink/FlumeData.1560976911071.tmp
+19/06/20 02:11:52 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+19/06/20 02:12:16 INFO file.EventQueueBackingStoreFile: Start checkpoint for /root/.flume/file-channel/checkpoint/checkpoint, elements to sync = 2000
+19/06/20 02:12:17 INFO file.EventQueueBackingStoreFile: Updating checkpoint metadata: logWriteOrderID: 1560976911483, queueSize: 0, queueHead: 1998
+19/06/20 02:12:17 INFO file.Log: Updated checkpoint for file: /root/.flume/file-channel/data/log-1 position: 455600 logWriteOrderID: 1560976911483
+19/06/20 02:15:40 INFO avro.ReliableSpoolingFileEventReader: Last read took us just up to a file boundary. Rolling to the next file, if there is one.
+19/06/20 02:15:40 INFO avro.ReliableSpoolingFileEventReader: Preparing to move file /root/Desktop/Data/Project2/flume_sink/input2.txt to /root/Desktop/Data/Project2/flume_sink/input2.txt.COMPLETED
+19/06/20 02:15:47 INFO file.EventQueueBackingStoreFile: Start checkpoint for /root/.flume/file-channel/checkpoint/checkpoint, elements to sync = 2000
+19/06/20 02:15:47 INFO file.EventQueueBackingStoreFile: Updating checkpoint metadata: logWriteOrderID: 1560976915506, queueSize: 0, queueHead: 3996
+19/06/20 02:15:47 INFO file.Log: Updated checkpoint for file: /root/.flume/file-channel/data/log-1 position: 911200 logWriteOrderID: 1560976915506
+
