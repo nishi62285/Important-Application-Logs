@@ -1,0 +1,628 @@
+2019-08-07 03:26:58 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-08-07 03:26:59 INFO  SecurityManager:54 - Changing view acls to: root
+2019-08-07 03:26:59 INFO  SecurityManager:54 - Changing modify acls to: root
+2019-08-07 03:26:59 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-08-07 03:26:59 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-08-07 03:26:59 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2019-08-07 03:27:00 INFO  Utils:54 - Successfully started service 'Driver' on port 33177.
+2019-08-07 03:27:00 INFO  DriverWrapper:54 - Driver address: 192.168.56.13:33177
+2019-08-07 03:27:00 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.56.13:36895
+2019-08-07 03:27:01 INFO  SecurityManager:54 - Changing view acls to: root
+2019-08-07 03:27:01 INFO  SecurityManager:54 - Changing modify acls to: root
+2019-08-07 03:27:01 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-08-07 03:27:01 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-08-07 03:27:01 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2019-08-07 03:27:01 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.56.13:36895 after 552 ms (0 ms spent in bootstraps)
+2019-08-07 03:27:01 INFO  WorkerWatcher:54 - Successfully connected to spark://Worker@192.168.56.13:36895
+2019-08-07 03:27:06 INFO  SparkContext:54 - Running Spark version 2.3.3
+2019-08-07 03:27:06 INFO  SparkContext:54 - Submitted application: KafkaReceiver
+2019-08-07 03:27:07 INFO  SecurityManager:54 - Changing view acls to: root
+2019-08-07 03:27:07 INFO  SecurityManager:54 - Changing modify acls to: root
+2019-08-07 03:27:07 INFO  SecurityManager:54 - Changing view acls groups to: 
+2019-08-07 03:27:07 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2019-08-07 03:27:07 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2019-08-07 03:27:07 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 35446.
+2019-08-07 03:27:07 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-08-07 03:27:08 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-08-07 03:27:08 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-08-07 03:27:08 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-08-07 03:27:08 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-c17abb97-c77b-4c91-bf6e-5ed2a635401b
+2019-08-07 03:27:08 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2019-08-07 03:27:08 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-08-07 03:27:08 INFO  log:192 - Logging initialized @27051ms
+2019-08-07 03:27:09 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-08-07 03:27:09 INFO  Server:419 - Started @27408ms
+2019-08-07 03:27:09 INFO  AbstractConnector:278 - Started ServerConnector@26722665{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-08-07 03:27:09 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6c8909c3{/jobs,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6401d0a0{/jobs/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4ce14f05{/jobs/job,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b965857{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@61f80d55{/stages,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@27a7ef08{/stages/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@280e8a1a{/stages/stage,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@289778cd{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7495699f{/stages/pool,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7c2312fa{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4cb0a000{/storage,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ff2e84b{/storage/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@74abbb{/storage/rdd,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64a4dd8d{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2dddc1b9{/environment,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65a5d4f9{/environment/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@40298285{/executors,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@22367b8{/executors/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@41b0ae4c{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@af9a89f{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6482eef{/static,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@474fae39{/,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4f4c789f{/api,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@d5ce97f{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7048535f{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-08-07 03:27:09 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://slave2:4040
+2019-08-07 03:27:10 INFO  SparkContext:54 - Added JAR hdfs://master:9000/KafkaStreamBasic2.jar at hdfs://master:9000/KafkaStreamBasic2.jar with timestamp 1565128630034
+2019-08-07 03:27:10 INFO  StandaloneAppClient$ClientEndpoint:54 - Connecting to master spark://master:7077...
+2019-08-07 03:27:10 INFO  TransportClientFactory:267 - Successfully created connection to master/192.168.56.11:7077 after 8 ms (0 ms spent in bootstraps)
+2019-08-07 03:27:10 INFO  StandaloneSchedulerBackend:54 - Connected to Spark cluster with app ID app-20190807032703-0003
+2019-08-07 03:27:10 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor added: app-20190807032703-0003/0 on worker-20190807013235-192.168.56.12-37812 (192.168.56.12:37812) with 2 core(s)
+2019-08-07 03:27:10 INFO  StandaloneSchedulerBackend:54 - Granted executor ID app-20190807032703-0003/0 on hostPort 192.168.56.12:37812 with 2 core(s), 1024.0 MB RAM
+2019-08-07 03:27:10 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40652.
+2019-08-07 03:27:10 INFO  NettyBlockTransferService:54 - Server created on slave2:40652
+2019-08-07 03:27:10 INFO  StandaloneAppClient$ClientEndpoint:54 - Executor updated: app-20190807032703-0003/0 is now RUNNING
+2019-08-07 03:27:10 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-08-07 03:27:10 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, slave2, 40652, None)
+2019-08-07 03:27:10 INFO  BlockManagerMasterEndpoint:54 - Registering block manager slave2:40652 with 366.3 MB RAM, BlockManagerId(driver, slave2, 40652, None)
+2019-08-07 03:27:10 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, slave2, 40652, None)
+2019-08-07 03:27:10 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, slave2, 40652, None)
+2019-08-07 03:27:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3f4f5330{/metrics/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:11 INFO  StandaloneSchedulerBackend:54 - SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+2019-08-07 03:27:13 WARN  KafkaUtils:66 - overriding enable.auto.commit to false for executor
+2019-08-07 03:27:13 WARN  KafkaUtils:66 - overriding auto.offset.reset to none for executor
+2019-08-07 03:27:13 WARN  KafkaUtils:66 - overriding executor group.id to spark-executor-grp4
+2019-08-07 03:27:13 WARN  KafkaUtils:66 - overriding receive.buffer.bytes to 65536 see KAFKA-3135
+****************printing stream******************
+2019-08-07 03:27:15 INFO  DirectKafkaInputDStream:54 - Slide time = 10000 ms
+2019-08-07 03:27:15 INFO  DirectKafkaInputDStream:54 - Storage level = Serialized 1x Replicated
+2019-08-07 03:27:15 INFO  DirectKafkaInputDStream:54 - Checkpoint interval = null
+2019-08-07 03:27:15 INFO  DirectKafkaInputDStream:54 - Remember interval = 10000 ms
+2019-08-07 03:27:15 INFO  DirectKafkaInputDStream:54 - Initialized and validated org.apache.spark.streaming.kafka010.DirectKafkaInputDStream@6ef06fc8
+2019-08-07 03:27:15 INFO  MappedDStream:54 - Slide time = 10000 ms
+2019-08-07 03:27:15 INFO  MappedDStream:54 - Storage level = Serialized 1x Replicated
+2019-08-07 03:27:15 INFO  MappedDStream:54 - Checkpoint interval = null
+2019-08-07 03:27:15 INFO  MappedDStream:54 - Remember interval = 10000 ms
+2019-08-07 03:27:15 INFO  MappedDStream:54 - Initialized and validated org.apache.spark.streaming.dstream.MappedDStream@5b9a85b0
+2019-08-07 03:27:15 INFO  ForEachDStream:54 - Slide time = 10000 ms
+2019-08-07 03:27:15 INFO  ForEachDStream:54 - Storage level = Serialized 1x Replicated
+2019-08-07 03:27:15 INFO  ForEachDStream:54 - Checkpoint interval = null
+2019-08-07 03:27:15 INFO  ForEachDStream:54 - Remember interval = 10000 ms
+2019-08-07 03:27:15 INFO  ForEachDStream:54 - Initialized and validated org.apache.spark.streaming.dstream.ForEachDStream@14ca447f
+2019-08-07 03:27:15 INFO  ConsumerConfig:279 - ConsumerConfig values: 
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.56.11:9092, 192.168.56.12:9092, 192.168.56.13:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = grp4
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2019-08-07 03:27:17 INFO  AppInfoParser:109 - Kafka version : 2.1.1
+2019-08-07 03:27:17 INFO  AppInfoParser:110 - Kafka commitId : 21234bee31165527
+2019-08-07 03:27:18 INFO  Metadata:285 - Cluster ID: T1_Ih5NyT9u6Hdnw8t9WzA
+2019-08-07 03:27:18 INFO  AbstractCoordinator:654 - [Consumer clientId=consumer-1, groupId=grp4] Discovered group coordinator 192.168.56.13:9092 (id: 2147483645 rack: null)
+2019-08-07 03:27:18 INFO  ConsumerCoordinator:458 - [Consumer clientId=consumer-1, groupId=grp4] Revoking previously assigned partitions []
+2019-08-07 03:27:18 INFO  AbstractCoordinator:486 - [Consumer clientId=consumer-1, groupId=grp4] (Re-)joining group
+2019-08-07 03:27:23 INFO  AbstractCoordinator:450 - [Consumer clientId=consumer-1, groupId=grp4] Successfully joined group with generation 1
+2019-08-07 03:27:23 INFO  ConsumerCoordinator:289 - [Consumer clientId=consumer-1, groupId=grp4] Setting newly assigned partitions [foo-topic-0, foo-topic-1, foo-topic-2]
+2019-08-07 03:27:23 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:27:23 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:27:23 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:27:23 INFO  RecurringTimer:54 - Started timer for JobGenerator at time 1565128640000
+2019-08-07 03:27:23 INFO  JobGenerator:54 - Started JobGenerator at 1565128640000 ms
+2019-08-07 03:27:24 INFO  JobScheduler:54 - Started JobScheduler
+2019-08-07 03:27:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@59b65dce{/streaming,null,AVAILABLE,@Spark}
+2019-08-07 03:27:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1386313f{/streaming/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@a22c4d8{/streaming/batch,null,AVAILABLE,@Spark}
+2019-08-07 03:27:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@45cd7bc5{/streaming/batch/json,null,AVAILABLE,@Spark}
+2019-08-07 03:27:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@29fa6b65{/static/streaming,null,AVAILABLE,@Spark}
+2019-08-07 03:27:24 INFO  StreamingContext:54 - StreamingContext started
+2019-08-07 03:27:24 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:27:24 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:27:24 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:27:24 INFO  JobScheduler:54 - Added jobs for time 1565128640000 ms
+2019-08-07 03:27:24 INFO  JobScheduler:54 - Starting job streaming job 1565128640000 ms.0 from job set of time 1565128640000 ms
+2019-08-07 03:27:24 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:24 INFO  DAGScheduler:54 - Got job 0 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:27:24 INFO  DAGScheduler:54 - Final stage: ResultStage 0 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:24 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:25 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:25 INFO  DAGScheduler:54 - Submitting ResultStage 0 (MapPartitionsRDD[1] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:26 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:26 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 1990.0 B, free 366.3 MB)
+2019-08-07 03:27:26 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on slave2:40652 (size: 1990.0 B, free: 366.3 MB)
+2019-08-07 03:27:26 INFO  SparkContext:54 - Created broadcast 0 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:26 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:27:26 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 1 tasks
+2019-08-07 03:27:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:27:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:27:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:27:30 INFO  JobScheduler:54 - Added jobs for time 1565128650000 ms
+2019-08-07 03:27:40 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:27:40 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:27:40 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:27:40 INFO  JobScheduler:54 - Added jobs for time 1565128660000 ms
+2019-08-07 03:27:41 INFO  CoarseGrainedSchedulerBackend$DriverEndpoint:54 - Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.56.12:49932) with ID 0
+2019-08-07 03:27:41 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:41 INFO  BlockManagerMasterEndpoint:54 - Registering block manager 192.168.56.12:36930 with 366.3 MB RAM, BlockManagerId(0, 192.168.56.12, 36930, None)
+2019-08-07 03:27:50 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:27:50 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:27:50 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:27:50 INFO  JobScheduler:54 - Added jobs for time 1565128670000 ms
+2019-08-07 03:27:50 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on 192.168.56.12:36930 (size: 1990.0 B, free: 366.3 MB)
+2019-08-07 03:27:53 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 12551 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:27:54 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - ResultStage 0 (print at SparkStreamkafka.scala:45) finished in 28.523 s
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Job 0 finished: print at SparkStreamkafka.scala:45, took 29.200851 s
+2019-08-07 03:27:54 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Got job 1 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Submitting ResultStage 1 (MapPartitionsRDD[1] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:54 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:54 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 1990.0 B, free 366.3 MB)
+2019-08-07 03:27:54 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on slave2:40652 (size: 1990.0 B, free: 366.3 MB)
+2019-08-07 03:27:54 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 1 (MapPartitionsRDD[1] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:27:54 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 2 tasks
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 1, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 2, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:54 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on 192.168.56.12:36930 (size: 1990.0 B, free: 366.3 MB)
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 2) in 213 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 1) in 244 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:27:54 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - ResultStage 1 (print at SparkStreamkafka.scala:45) finished in 0.338 s
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Job 1 finished: print at SparkStreamkafka.scala:45, took 0.430871 s
+-------------------------------------------
+Time: 1565128640000 ms
+-------------------------------------------
+
+2019-08-07 03:27:54 INFO  JobScheduler:54 - Finished job streaming job 1565128640000 ms.0 from job set of time 1565128640000 ms
+2019-08-07 03:27:54 INFO  JobScheduler:54 - Total delay: 34.601 s for time 1565128640000 ms (execution: 30.098 s)
+2019-08-07 03:27:54 INFO  JobScheduler:54 - Starting job streaming job 1565128650000 ms.0 from job set of time 1565128650000 ms
+2019-08-07 03:27:54 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Got job 2 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[3] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:54 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:54 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:27:54 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:54 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:54 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:54 INFO  InputInfoTracker:54 - remove old batch metadata: 
+2019-08-07 03:27:54 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[3] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:27:54 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 1 tasks
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 3, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:54 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:54 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 3) in 210 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:27:54 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - ResultStage 2 (print at SparkStreamkafka.scala:45) finished in 0.288 s
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Job 2 finished: print at SparkStreamkafka.scala:45, took 0.353708 s
+2019-08-07 03:27:55 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Got job 3 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Final stage: ResultStage 3 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting ResultStage 3 (MapPartitionsRDD[3] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:55 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:55 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 3 (MapPartitionsRDD[3] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:27:55 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 2 tasks
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 4, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 5, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:55 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 4) in 154 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 5) in 176 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:27:55 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - ResultStage 3 (print at SparkStreamkafka.scala:45) finished in 0.259 s
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Job 3 finished: print at SparkStreamkafka.scala:45, took 0.292634 s
+-------------------------------------------
+Time: 1565128650000 ms
+-------------------------------------------
+
+2019-08-07 03:27:55 INFO  JobScheduler:54 - Finished job streaming job 1565128650000 ms.0 from job set of time 1565128650000 ms
+2019-08-07 03:27:55 INFO  JobScheduler:54 - Total delay: 25.349 s for time 1565128650000 ms (execution: 0.739 s)
+2019-08-07 03:27:55 INFO  JobScheduler:54 - Starting job streaming job 1565128660000 ms.0 from job set of time 1565128660000 ms
+2019-08-07 03:27:55 INFO  MapPartitionsRDD:54 - Removing RDD 1 from persistence list
+2019-08-07 03:27:55 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Got job 4 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Final stage: ResultStage 4 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting ResultStage 4 (MapPartitionsRDD[5] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:55 INFO  BlockManager:54 - Removing RDD 1
+2019-08-07 03:27:55 INFO  KafkaRDD:54 - Removing RDD 0 from persistence list
+2019-08-07 03:27:55 INFO  BlockManager:54 - Removing RDD 0
+2019-08-07 03:27:55 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:27:55 INFO  InputInfoTracker:54 - remove old batch metadata: 
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:55 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:55 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[5] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:27:55 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 1 tasks
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 6, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:55 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 6) in 268 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:27:55 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - ResultStage 4 (print at SparkStreamkafka.scala:45) finished in 0.325 s
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Job 4 finished: print at SparkStreamkafka.scala:45, took 0.408887 s
+2019-08-07 03:27:55 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Got job 5 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[5] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:55 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:55 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:55 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:55 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 5 (MapPartitionsRDD[5] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:27:55 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 2 tasks
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 7, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:55 INFO  TaskSetManager:54 - Starting task 1.0 in stage 5.0 (TID 8, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:56 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Finished task 1.0 in stage 5.0 (TID 8) in 242 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 7) in 253 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:27:56 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - ResultStage 5 (print at SparkStreamkafka.scala:45) finished in 0.291 s
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Job 5 finished: print at SparkStreamkafka.scala:45, took 0.320966 s
+-------------------------------------------
+Time: 1565128660000 ms
+-------------------------------------------
+
+2019-08-07 03:27:56 INFO  JobScheduler:54 - Finished job streaming job 1565128660000 ms.0 from job set of time 1565128660000 ms
+2019-08-07 03:27:56 INFO  JobScheduler:54 - Total delay: 16.186 s for time 1565128660000 ms (execution: 0.835 s)
+2019-08-07 03:27:56 INFO  JobScheduler:54 - Starting job streaming job 1565128670000 ms.0 from job set of time 1565128670000 ms
+2019-08-07 03:27:56 INFO  MapPartitionsRDD:54 - Removing RDD 3 from persistence list
+2019-08-07 03:27:56 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Got job 6 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Final stage: ResultStage 6 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Submitting ResultStage 6 (MapPartitionsRDD[7] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:56 INFO  KafkaRDD:54 - Removing RDD 2 from persistence list
+2019-08-07 03:27:56 INFO  BlockManager:54 - Removing RDD 3
+2019-08-07 03:27:56 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:56 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:56 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:27:56 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128640000 ms
+2019-08-07 03:27:56 INFO  BlockManager:54 - Removing RDD 2
+2019-08-07 03:27:56 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:56 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 6 (MapPartitionsRDD[7] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:27:56 INFO  TaskSchedulerImpl:54 - Adding task set 6.0 with 1 tasks
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Starting task 0.0 in stage 6.0 (TID 9, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:56 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Finished task 0.0 in stage 6.0 (TID 9) in 102 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:27:56 INFO  TaskSchedulerImpl:54 - Removed TaskSet 6.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - ResultStage 6 (print at SparkStreamkafka.scala:45) finished in 0.156 s
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Job 6 finished: print at SparkStreamkafka.scala:45, took 0.170708 s
+2019-08-07 03:27:56 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Got job 7 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Final stage: ResultStage 7 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Submitting ResultStage 7 (MapPartitionsRDD[7] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:27:56 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:27:56 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:27:56 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:56 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 7 (MapPartitionsRDD[7] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:27:56 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 2 tasks
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 10, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 11, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:27:56 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 11) in 103 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:27:56 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 10) in 114 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:27:56 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - ResultStage 7 (print at SparkStreamkafka.scala:45) finished in 0.154 s
+2019-08-07 03:27:56 INFO  DAGScheduler:54 - Job 7 finished: print at SparkStreamkafka.scala:45, took 0.179212 s
+-------------------------------------------
+Time: 1565128670000 ms
+-------------------------------------------
+
+2019-08-07 03:27:56 INFO  JobScheduler:54 - Finished job streaming job 1565128670000 ms.0 from job set of time 1565128670000 ms
+2019-08-07 03:27:56 INFO  JobScheduler:54 - Total delay: 6.585 s for time 1565128670000 ms (execution: 0.396 s)
+2019-08-07 03:27:56 INFO  MapPartitionsRDD:54 - Removing RDD 5 from persistence list
+2019-08-07 03:27:56 INFO  BlockManager:54 - Removing RDD 5
+2019-08-07 03:27:56 INFO  KafkaRDD:54 - Removing RDD 4 from persistence list
+2019-08-07 03:27:56 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:27:56 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128650000 ms
+2019-08-07 03:27:56 INFO  BlockManager:54 - Removing RDD 4
+2019-08-07 03:28:00 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 12.
+2019-08-07 03:28:00 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:28:00 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:28:00 INFO  JobScheduler:54 - Added jobs for time 1565128680000 ms
+2019-08-07 03:28:00 INFO  JobScheduler:54 - Starting job streaming job 1565128680000 ms.0 from job set of time 1565128680000 ms
+2019-08-07 03:28:00 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Got job 8 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Final stage: ResultStage 8 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Submitting ResultStage 8 (MapPartitionsRDD[9] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:00 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:28:00 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:28:00 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:00 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 8 (MapPartitionsRDD[9] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:28:00 INFO  TaskSchedulerImpl:54 - Adding task set 8.0 with 1 tasks
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Starting task 0.0 in stage 8.0 (TID 12, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:00 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Finished task 0.0 in stage 8.0 (TID 12) in 135 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:28:00 INFO  TaskSchedulerImpl:54 - Removed TaskSet 8.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - ResultStage 8 (print at SparkStreamkafka.scala:45) finished in 0.189 s
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Job 8 finished: print at SparkStreamkafka.scala:45, took 0.212037 s
+2019-08-07 03:28:00 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Got job 9 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Final stage: ResultStage 9 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Submitting ResultStage 9 (MapPartitionsRDD[9] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:00 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:28:00 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.3 MB)
+2019-08-07 03:28:00 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:00 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 9 (MapPartitionsRDD[9] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:28:00 INFO  TaskSchedulerImpl:54 - Adding task set 9.0 with 2 tasks
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Starting task 0.0 in stage 9.0 (TID 13, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Starting task 1.0 in stage 9.0 (TID 14, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:00 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Finished task 0.0 in stage 9.0 (TID 13) in 129 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:28:00 INFO  TaskSetManager:54 - Finished task 1.0 in stage 9.0 (TID 14) in 139 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:28:00 INFO  TaskSchedulerImpl:54 - Removed TaskSet 9.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - ResultStage 9 (print at SparkStreamkafka.scala:45) finished in 0.177 s
+2019-08-07 03:28:00 INFO  DAGScheduler:54 - Job 9 finished: print at SparkStreamkafka.scala:45, took 0.194553 s
+-------------------------------------------
+Time: 1565128680000 ms
+-------------------------------------------
+
+2019-08-07 03:28:00 INFO  JobScheduler:54 - Finished job streaming job 1565128680000 ms.0 from job set of time 1565128680000 ms
+2019-08-07 03:28:00 INFO  JobScheduler:54 - Total delay: 0.542 s for time 1565128680000 ms (execution: 0.487 s)
+2019-08-07 03:28:00 INFO  MapPartitionsRDD:54 - Removing RDD 7 from persistence list
+2019-08-07 03:28:00 INFO  BlockManager:54 - Removing RDD 7
+2019-08-07 03:28:00 INFO  KafkaRDD:54 - Removing RDD 6 from persistence list
+2019-08-07 03:28:00 INFO  BlockManager:54 - Removing RDD 6
+2019-08-07 03:28:00 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:28:00 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128660000 ms
+2019-08-07 03:28:10 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:28:10 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 13.
+2019-08-07 03:28:10 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:28:10 INFO  JobScheduler:54 - Added jobs for time 1565128690000 ms
+2019-08-07 03:28:10 INFO  JobScheduler:54 - Starting job streaming job 1565128690000 ms.0 from job set of time 1565128690000 ms
+2019-08-07 03:28:10 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Got job 10 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Final stage: ResultStage 10 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Submitting ResultStage 10 (MapPartitionsRDD[11] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:10 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 2.9 KB, free 366.3 MB)
+2019-08-07 03:28:10 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:10 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:10 INFO  SparkContext:54 - Created broadcast 10 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:10 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 10 (MapPartitionsRDD[11] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:28:10 INFO  TaskSchedulerImpl:54 - Adding task set 10.0 with 1 tasks
+2019-08-07 03:28:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 10.0 (TID 15, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:10 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:15 INFO  TaskSetManager:54 - Finished task 0.0 in stage 10.0 (TID 15) in 5150 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:28:15 INFO  TaskSchedulerImpl:54 - Removed TaskSet 10.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - ResultStage 10 (print at SparkStreamkafka.scala:45) finished in 5.235 s
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Job 10 finished: print at SparkStreamkafka.scala:45, took 5.282317 s
+2019-08-07 03:28:15 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Got job 11 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Final stage: ResultStage 11 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Submitting ResultStage 11 (MapPartitionsRDD[11] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:15 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 2.9 KB, free 366.2 MB)
+2019-08-07 03:28:15 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:15 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:15 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 11 (MapPartitionsRDD[11] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:28:15 INFO  TaskSchedulerImpl:54 - Adding task set 11.0 with 2 tasks
+2019-08-07 03:28:15 INFO  TaskSetManager:54 - Starting task 0.0 in stage 11.0 (TID 16, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:15 INFO  TaskSetManager:54 - Starting task 1.0 in stage 11.0 (TID 17, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:15 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:15 INFO  TaskSetManager:54 - Finished task 1.0 in stage 11.0 (TID 17) in 198 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:28:15 INFO  TaskSetManager:54 - Finished task 0.0 in stage 11.0 (TID 16) in 220 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:28:15 INFO  TaskSchedulerImpl:54 - Removed TaskSet 11.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - ResultStage 11 (print at SparkStreamkafka.scala:45) finished in 0.283 s
+2019-08-07 03:28:15 INFO  DAGScheduler:54 - Job 11 finished: print at SparkStreamkafka.scala:45, took 0.319828 s
+-------------------------------------------
+Time: 1565128690000 ms
+-------------------------------------------
+(null,{"_id":"123","index":"0","guid": "485928f6-a636-459b-af52bacd3605e401","isActive": "false","balance": "$1,823.29","age": "35","name": "June Serrano","gender": "female","company": "GLUKGLUK","email": "juneserrano@glukgluk.com","phone": "+1 (907) 562-2800","address": "341 Irving Place, Northridge, Utah, 4212","about": "Laborum veniam nulla aliquip deserunt culpa incididunt amet ea in non reprehenderit. Consequat velit commodo in et. Nulla cupidatat laborum ut officia voluptate ex nulla fugiat. Cupidatat amet ullamco in laboris mollit minim qui nisi duis culpa. Aliquip Lorem irure pariatur duis sunt anim dolor laborum occaecat voluptate et quis occaecat.
+
+","registered": "2019-05-04T01:37:51 -06:-30","friends": [{"id": 0,"name": "Edwards Benjamin"},{"id": 1,"name": "Barber Lawson"},{"id": 2,"name": "Tamika Wright"}],"greeting": "Hello, June Serrano! You have 3 unread messages.","favoriteFruit": "strawberry"})
+
+2019-08-07 03:28:15 INFO  JobScheduler:54 - Finished job streaming job 1565128690000 ms.0 from job set of time 1565128690000 ms
+2019-08-07 03:28:15 INFO  JobScheduler:54 - Total delay: 5.795 s for time 1565128690000 ms (execution: 5.708 s)
+2019-08-07 03:28:15 INFO  MapPartitionsRDD:54 - Removing RDD 9 from persistence list
+2019-08-07 03:28:15 INFO  BlockManager:54 - Removing RDD 9
+2019-08-07 03:28:15 INFO  KafkaRDD:54 - Removing RDD 8 from persistence list
+2019-08-07 03:28:15 INFO  BlockManager:54 - Removing RDD 8
+2019-08-07 03:28:15 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:28:15 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128670000 ms
+2019-08-07 03:28:20 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 13.
+2019-08-07 03:28:20 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:28:20 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:28:20 INFO  JobScheduler:54 - Added jobs for time 1565128700000 ms
+2019-08-07 03:28:20 INFO  JobScheduler:54 - Starting job streaming job 1565128700000 ms.0 from job set of time 1565128700000 ms
+2019-08-07 03:28:20 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Got job 12 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Final stage: ResultStage 12 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Submitting ResultStage 12 (MapPartitionsRDD[13] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:20 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 2.9 KB, free 366.2 MB)
+2019-08-07 03:28:20 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:20 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:20 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 12 (MapPartitionsRDD[13] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:28:20 INFO  TaskSchedulerImpl:54 - Adding task set 12.0 with 1 tasks
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Starting task 0.0 in stage 12.0 (TID 18, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:20 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Finished task 0.0 in stage 12.0 (TID 18) in 94 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:28:20 INFO  TaskSchedulerImpl:54 - Removed TaskSet 12.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - ResultStage 12 (print at SparkStreamkafka.scala:45) finished in 0.148 s
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Job 12 finished: print at SparkStreamkafka.scala:45, took 0.176332 s
+2019-08-07 03:28:20 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Got job 13 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Final stage: ResultStage 13 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Submitting ResultStage 13 (MapPartitionsRDD[13] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:20 INFO  MemoryStore:54 - Block broadcast_13 stored as values in memory (estimated size 2.9 KB, free 366.2 MB)
+2019-08-07 03:28:20 INFO  MemoryStore:54 - Block broadcast_13_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:20 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:20 INFO  SparkContext:54 - Created broadcast 13 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 13 (MapPartitionsRDD[13] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:28:20 INFO  TaskSchedulerImpl:54 - Adding task set 13.0 with 2 tasks
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Starting task 0.0 in stage 13.0 (TID 19, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Starting task 1.0 in stage 13.0 (TID 20, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:20 INFO  BlockManagerInfo:54 - Added broadcast_13_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Finished task 0.0 in stage 13.0 (TID 19) in 145 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:28:20 INFO  TaskSetManager:54 - Finished task 1.0 in stage 13.0 (TID 20) in 149 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:28:20 INFO  TaskSchedulerImpl:54 - Removed TaskSet 13.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - ResultStage 13 (print at SparkStreamkafka.scala:45) finished in 0.207 s
+2019-08-07 03:28:20 INFO  DAGScheduler:54 - Job 13 finished: print at SparkStreamkafka.scala:45, took 0.230232 s
+-------------------------------------------
+Time: 1565128700000 ms
+-------------------------------------------
+
+2019-08-07 03:28:20 INFO  JobScheduler:54 - Finished job streaming job 1565128700000 ms.0 from job set of time 1565128700000 ms
+2019-08-07 03:28:20 INFO  JobScheduler:54 - Total delay: 0.577 s for time 1565128700000 ms (execution: 0.497 s)
+2019-08-07 03:28:20 INFO  MapPartitionsRDD:54 - Removing RDD 11 from persistence list
+2019-08-07 03:28:20 INFO  BlockManager:54 - Removing RDD 11
+2019-08-07 03:28:20 INFO  KafkaRDD:54 - Removing RDD 10 from persistence list
+2019-08-07 03:28:20 INFO  BlockManager:54 - Removing RDD 10
+2019-08-07 03:28:20 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:28:20 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128680000 ms
+2019-08-07 03:28:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-1 to offset 13.
+2019-08-07 03:28:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-0 to offset 0.
+2019-08-07 03:28:30 INFO  Fetcher:583 - [Consumer clientId=consumer-1, groupId=grp4] Resetting offset for partition foo-topic-2 to offset 0.
+2019-08-07 03:28:30 INFO  JobScheduler:54 - Added jobs for time 1565128710000 ms
+2019-08-07 03:28:30 INFO  JobScheduler:54 - Starting job streaming job 1565128710000 ms.0 from job set of time 1565128710000 ms
+2019-08-07 03:28:30 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Got job 14 (print at SparkStreamkafka.scala:45) with 1 output partitions
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Final stage: ResultStage 14 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Submitting ResultStage 14 (MapPartitionsRDD[15] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:30 INFO  MemoryStore:54 - Block broadcast_14 stored as values in memory (estimated size 2.9 KB, free 366.2 MB)
+2019-08-07 03:28:30 INFO  MemoryStore:54 - Block broadcast_14_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:30 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:30 INFO  SparkContext:54 - Created broadcast 14 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 14 (MapPartitionsRDD[15] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(0))
+2019-08-07 03:28:30 INFO  TaskSchedulerImpl:54 - Adding task set 14.0 with 1 tasks
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Starting task 0.0 in stage 14.0 (TID 21, 192.168.56.12, executor 0, partition 0, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:30 INFO  BlockManagerInfo:54 - Added broadcast_14_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Finished task 0.0 in stage 14.0 (TID 21) in 131 ms on 192.168.56.12 (executor 0) (1/1)
+2019-08-07 03:28:30 INFO  TaskSchedulerImpl:54 - Removed TaskSet 14.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - ResultStage 14 (print at SparkStreamkafka.scala:45) finished in 0.170 s
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Job 14 finished: print at SparkStreamkafka.scala:45, took 0.187759 s
+2019-08-07 03:28:30 INFO  SparkContext:54 - Starting job: print at SparkStreamkafka.scala:45
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Got job 15 (print at SparkStreamkafka.scala:45) with 2 output partitions
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Final stage: ResultStage 15 (print at SparkStreamkafka.scala:45)
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Parents of final stage: List()
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Missing parents: List()
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Submitting ResultStage 15 (MapPartitionsRDD[15] at map at SparkStreamkafka.scala:43), which has no missing parents
+2019-08-07 03:28:30 INFO  MemoryStore:54 - Block broadcast_15 stored as values in memory (estimated size 2.9 KB, free 366.2 MB)
+2019-08-07 03:28:30 INFO  MemoryStore:54 - Block broadcast_15_piece0 stored as bytes in memory (estimated size 1992.0 B, free 366.2 MB)
+2019-08-07 03:28:30 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on slave2:40652 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:30 INFO  SparkContext:54 - Created broadcast 15 from broadcast at DAGScheduler.scala:1039
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Submitting 2 missing tasks from ResultStage 15 (MapPartitionsRDD[15] at map at SparkStreamkafka.scala:43) (first 15 tasks are for partitions Vector(1, 2))
+2019-08-07 03:28:30 INFO  TaskSchedulerImpl:54 - Adding task set 15.0 with 2 tasks
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Starting task 0.0 in stage 15.0 (TID 22, 192.168.56.12, executor 0, partition 1, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Starting task 1.0 in stage 15.0 (TID 23, 192.168.56.12, executor 0, partition 2, PROCESS_LOCAL, 7739 bytes)
+2019-08-07 03:28:30 INFO  BlockManagerInfo:54 - Added broadcast_15_piece0 in memory on 192.168.56.12:36930 (size: 1992.0 B, free: 366.3 MB)
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Finished task 1.0 in stage 15.0 (TID 23) in 113 ms on 192.168.56.12 (executor 0) (1/2)
+2019-08-07 03:28:30 INFO  TaskSetManager:54 - Finished task 0.0 in stage 15.0 (TID 22) in 134 ms on 192.168.56.12 (executor 0) (2/2)
+2019-08-07 03:28:30 INFO  TaskSchedulerImpl:54 - Removed TaskSet 15.0, whose tasks have all completed, from pool 
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - ResultStage 15 (print at SparkStreamkafka.scala:45) finished in 0.189 s
+2019-08-07 03:28:30 INFO  DAGScheduler:54 - Job 15 finished: print at SparkStreamkafka.scala:45, took 0.206740 s
+-------------------------------------------
+Time: 1565128710000 ms
+-------------------------------------------
+
+2019-08-07 03:28:30 INFO  JobScheduler:54 - Finished job streaming job 1565128710000 ms.0 from job set of time 1565128710000 ms
+2019-08-07 03:28:30 INFO  JobScheduler:54 - Total delay: 0.564 s for time 1565128710000 ms (execution: 0.506 s)
+2019-08-07 03:28:30 INFO  MapPartitionsRDD:54 - Removing RDD 13 from persistence list
+2019-08-07 03:28:30 INFO  BlockManager:54 - Removing RDD 13
+2019-08-07 03:28:30 INFO  KafkaRDD:54 - Removing RDD 12 from persistence list
+2019-08-07 03:28:30 INFO  BlockManager:54 - Removing RDD 12
+2019-08-07 03:28:30 INFO  ReceivedBlockTracker:54 - Deleting batches: 
+2019-08-07 03:28:30 INFO  InputInfoTracker:54 - remove old batch metadata: 1565128690000 ms
+
